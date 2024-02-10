@@ -1,6 +1,5 @@
-import Image from "next/image";
+import Link from "next/Link";
 const Sidebar2 = () => {
-  
     const func = () => {
       document.addEventListener("DOMContentLoaded", function () {
         // Obtener todas las opciones principales con desplegables
@@ -28,11 +27,11 @@ const Sidebar2 = () => {
               <div className="flex items-center justify-between p-2 hover:bg-gray-700">
                 <div className="flex items-center">
                   <i className="fas fa-calendar-alt mr-2"></i>
-                  <span>Diary</span>
+                  <Link href="/personal">Personal Data</Link>
                 </div>
                 <i className="fas fa-chevron-down text-xs"></i>
               </div>
-              <ul className="desplegable ml-4 hidden">
+              {/* <ul className="desplegable ml-4 hidden">
                 <li>
                   <a href="#" className="block p-2 hover:bg-gray-700 flex items-center">
                     <i className="fas fa-chevron-right mr-2 text-xs"></i>
@@ -45,17 +44,17 @@ const Sidebar2 = () => {
                     Policies
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li className="opcion-con-desplegable">
               <div className="flex items-center justify-between p-2 hover:bg-gray-700">
                 <div className="flex items-center">
                   <i className="fas fa-money-bill-wave mr-2"></i>
-                  <span>Accounting</span>
+                  <Link href="/summary">Summary</Link>
                 </div>
                 <i className="fas fa-chevron-down text-xs"></i>
               </div>
-              <ul className="desplegable ml-4 hidden">
+              {/* <ul className="desplegable ml-4 hidden">
                 <li>
                   <a href="#" className="block p-2 hover:bg-gray-700 flex items-center">
                     <i className="fas fa-chevron-right mr-2 text-xs"></i>
@@ -74,17 +73,17 @@ const Sidebar2 = () => {
                     Invoices
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li className="opcion-con-desplegable">
               <div className="flex items-center justify-between p-2 hover:bg-gray-700">
                 <div className="flex items-center">
                   <i className="fas fa-chart-bar mr-2"></i>
-                  <span>Informes</span>
+                  <Link href="/diet">Diet</Link>
                 </div>
                 <i className="fas fa-chevron-down text-xs"></i>
               </div>
-              <ul className="desplegable ml-4 hidden">
+              {/* <ul className="desplegable ml-4 hidden">
                 <li>
                   <a href="#" className="block p-2 hover:bg-gray-700 flex items-center">
                     <i className="fas fa-chevron-right mr-2 text-xs"></i>
@@ -97,17 +96,17 @@ const Sidebar2 = () => {
                     Medical report
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li className="opcion-con-desplegable">
               <div className="flex items-center justify-between p-2 hover:bg-gray-700">
                 <div className="flex items-center">
                   <i className="fas fa-file-alt mr-2"></i>
-                  <span>Documentation</span>
+                  <Link href="/mealCalculator">Meal Calculator</Link>
                 </div>
                 <i className="fas fa-chevron-down text-xs"></i>
               </div>
-              <ul className="desplegable ml-4 hidden">
+              {/* <ul className="desplegable ml-4 hidden">
                 <li>
                   <a href="#" className="block p-2 hover:bg-gray-700 flex items-center">
                     <i className="fas fa-chevron-right mr-2 text-xs"></i>
@@ -120,7 +119,7 @@ const Sidebar2 = () => {
                     Documents
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </li>
           </ul>
         </nav>

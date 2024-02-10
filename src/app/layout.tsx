@@ -23,7 +23,7 @@ export default function RootLayout({
         <NavBar2 />
         <div style={{display:"flex"}}>
           <Sidebar2 />
-          <main className="flex min-h-screen flex-col items-center justify-between p-24">
+          <main className="flex min-h-screen flex-col items-center justify-between p-6 w-full">
             {children}
           </main>
         </div>
