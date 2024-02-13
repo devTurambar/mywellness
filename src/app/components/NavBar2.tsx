@@ -23,7 +23,7 @@ const NavBar2 = () => {
     <div>    
       <nav className="bg-blue-500 p-4 flex items-center justify-between">
         <div>
-          <h1 className="text-white text-xl font-semibold">Health 360</h1>
+          <h1 className="text-white text-xl font-semibold">My Wellness</h1>
         </div>
         <div className="flex items-center space-x-4">
           <span className="text-white">Welcome</span>
